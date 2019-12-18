@@ -26,7 +26,7 @@ class Cafe:
         to the price argument.
         """
         ###############YOUR CODE HERE#############
-        pass
+        self.menu[item]=price
         ##################END CODE################
 
     def add_stock(self, newstock):
@@ -38,7 +38,7 @@ class Cafe:
         a key in the cafe stock that represents that item, and add the corresponding number in newstock to it.
         """
         ###############YOUR CODE HERE#############
-        pass
+        self.stock.append(newstock)
         ##################END CODE################
 
 
@@ -51,7 +51,8 @@ class Cafe:
         in the order that are not in the cafe menu, return the string 'Not for sale' instead.
         """
         ###############YOUR CODE HERE#############
-        pass
+        order = 'Not for sale' + self.item 
+        return = order ** self.stock
         ##################END CODE################
 
 
