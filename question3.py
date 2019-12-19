@@ -16,5 +16,9 @@ return None, None.
 
 def f(x1, y1, x2, y2):
     ##########YOUR CODE HERE##########
-    pass
+    def f(x1, y1, x2, y2):
+  line = {}
+  line["m"] = (y1 - y2) / (x1 -x2)
+  line["b"] = y1 - (line["m"] * x1)
+return line
     ###########END CODE###############
