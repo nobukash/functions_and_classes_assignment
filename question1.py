@@ -9,5 +9,6 @@ location. For example, f([1,2,3,2,3,1]) should return 4.
 """
 def f(l):
     ##########YOUR CODE HERE##########
-    pass
+    listl = [10, 20, 30, 40]
+    print("Largetst number is", max(listl))
     ###########END CODE###############
